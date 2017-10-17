@@ -1,0 +1,13 @@
+##########################################################################
+#
+#    Bento4 Runtime Library exports
+#
+#    (c) 2002-2008 Axiomatic Systems, LLC
+#
+##########################################################################
+
+##########################################################################
+# exports
+##########################################################################
+TARGET_LIBRARIES += AP4
+INCLUDES_CPP     += -I$(SOURCE_ROOT)/Core -I$(SOURCE_ROOT)/Config -I$(SOURCE_ROOT)/MetaData -I$(SOURCE_ROOT)/System/StdC -I$(SOURCE_ROOT)/Crypto -I$(SOURCE_ROOT)/Codecs
